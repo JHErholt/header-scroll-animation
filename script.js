@@ -3,12 +3,12 @@ window.onscroll = function () {
     const getLi = document.getElementById('navbar-nav').getElementsByTagName("li")        
     
     if(window.pageYOffset > 0){
-        getHeader.style.backgroundColor = 'hsla(0, 5%, 75%, 0.825)';
+        getHeader.style.backgroundColor = 'hsla(0, 5%, 85%, 0.115)';
         for(var i = 0; i < getLi.length; i++){
             getLi[i].style.padding = "2em 2em"
         }
     }else{
-        getHeader.style.backgroundColor = 'hsla(0, 5%, 85%, 0.525)';
+        getHeader.style.backgroundColor = 'hsla(0, 5%, 85%, 0.515)';
         for(var i = 0; i < getLi.length; i++){
             getLi[i].style.padding = "3em 3em"
         }
