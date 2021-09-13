@@ -13,6 +13,4 @@ window.onscroll = function () {
             getLi[i].style.padding = "3em 3em"
         }
     }
-    
-
 }
